@@ -6,12 +6,22 @@ function App() {
 let [counter,setCounter] =useState(0)
   function addValue(){
     //return counter++;
-    setCounter(counter++)
+    if(counter === 21){
+      return
+    }else{
+      setCounter(counter++)
+    }
+    
   }
 
   function remoValue(){
     //return counter--;
-    setCounter(counter--)
+   // setCounter(counter--)
+    if(counter === -1){
+      return
+    }else{
+      setCounter(counter--)
+    }
   }
   return (
     <>
