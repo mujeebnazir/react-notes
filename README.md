@@ -17,4 +17,6 @@
 
 8. props help in making components reusable
 9. copy functionality - window.navigator.clipboard.writetext()
-10. 
+10. REACT ROUTER DOM-
+    Link{href = to} - it is used insted of anchor tag because when anchor tag is clicked it refreshed whole html doc and we dont want that in react.
+    NavLink -
